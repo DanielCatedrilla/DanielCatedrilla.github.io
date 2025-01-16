@@ -1,0 +1,264 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a0d13;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 40px;
+    height: 50px;
+}
+
+.logo {
+    background-image: url("/Images/Logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -90px;
+    text-indent: -999999px;
+
+}
+
+.logo a {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-image: url("/Images/Logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+}
+
+
+.Parent {
+    background-color: white;
+    width: 100;
+    height: 100;
+    padding: 20px;
+}
+
+/*
+.Child1 {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.Child2 {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}    */
+
+figure {
+    margin-left: 100px;
+}
+
+h1 {
+    color: black;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 35px;
+    position: relative;
+    top: -40px;
+}
+
+.Details {
+    float: right;
+    margin-top: 16px;
+    background-color: white;
+    height: 90px;
+}
+
+.Celestia-Header {
+    padding-right: 40px;
+}
+
+.LustreLine-Header {
+    padding-left: 5px;
+}
+
+.CrownCircle-Header {
+    padding-right: 55px;
+}
+
+.Radiant-Header {
+    padding-right: 123px;
+}
+
+.HaloArc-Header {
+    padding-right: 112px;
+}
+
+.Aurora-Header {
+    padding-right: 138px;
+}
+
+.Velvet-Header {
+    padding-right: 155px;
+}
+
+.Seraphic-Header {
+    padding-right: 115px;
+}
+
+.Moonlit-Header {
+    padding-right: 130px;
+}
+
+.Stellar-Header {
+    padding-right: 150px;
+}
+
+.Lattice-Header {
+    padding-right: 140px;
+}
+
+.Details p {
+
+    top: -60px;
+    position: relative;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.divider {
+    position: relative;
+    top: -60px;
+    width: 490px;
+    margin-right: 95px;
+}
+
+.Size-Buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+    position: relative;
+    top: -70px;
+}
+
+
+.Size-Buttons button {
+    background: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.Size-Buttons button:active {
+    background-color: black;
+    color: white;
+}
+
+.Size-Buttons button:hover {
+    border: 1px solid black;
+    transition: border 0.3s ease;
+}
+
+.Quantity-Counter {
+    position: relative;
+    top: -65px;
+    margin-left: 5px;
+}
+
+.decrement {
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.decrement:active {
+    opacity: 0.5;
+}
+
+.increment {
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.increment:active {
+    opacity: 0.5;
+}
+
+.Quantity {
+    width: 30px;
+    height: 20px;
+    border: none;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0s;
+
+}
+
+.Checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cart {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Buy {
+    margin-top: 10px;
+    padding-left: 255px;
+    padding-right: 255px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Buy:active {
+    opacity: 0.5;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}

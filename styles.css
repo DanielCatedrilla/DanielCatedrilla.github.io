@@ -1,0 +1,154 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    background-image: url("/Images/Banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 40px;
+    height: 420px;
+}
+
+.logo {
+    background-image: url("/Images/Logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -90px;
+    text-indent: -999999px;
+
+}
+
+.logo a {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-image: url("/Images/Logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+}
+
+
+.Products {
+    background-color: #0a0d13;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Products figure {
+    margin: auto;
+    text-align: center;
+
+}
+
+.Products figure img {
+    border-radius: 10px;
+    box-shadow: white 0 0 10px;
+}
+
+.Products figcaption {
+    padding-top: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.Email {
+    background-color: #0a0d13;
+    padding: 50px;
+}
+
+.Join {
+    /* background-color: red; */
+    margin-left: 150px;
+    width: 500px;
+    height: 50px;
+    text-align: left;
+    top: -10px;
+    position: relative;
+}
+
+.join-desc {
+    color: white;
+    /* background-color: blue; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    top: -40px;
+    margin-left: 150px;
+    position: relative;
+    display: inline-flex
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.Input {
+
+    float: right;
+    margin-right: 150px;
+    display: inline;
+    top: -65px;
+    position: relative;
+}
+
+.Box {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+
+}
+
+.Box:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input,
+select,
+textarea {
+    color: white;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}

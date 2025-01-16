@@ -1,0 +1,136 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a0d13;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 40px;
+    height: 50px;
+}
+
+.logo {
+    background-image: url("/Images/Logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -90px;
+    text-indent: -999999px;
+
+}
+
+.logo a {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-image: url("/Images/Logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+}
+
+.About {
+    background-color: #0a0d13;
+    height: 850px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.About-Header {
+    font-size: 40px;
+    color: white;
+}
+
+.Us {
+    color: white;
+    background-color: #0a0d13;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.Mission {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.Offer {
+    margin-bottom: 0px;
+}
+
+.Gifts {
+    line-height: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.Email {
+    background-color: #0a0d13;
+    padding: 50px;
+}
+
+.Join {
+    /* background-color: red; */
+    margin-left: 150px;
+    width: 500px;
+    height: 50px;
+    text-align: left;
+    top: -10px;
+    position: relative;
+}
+
+.join-desc {
+    color: white;
+    /* background-color: blue; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    top: -40px;
+    margin-left: 150px;
+    position: relative;
+    display: inline-flex
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+
+footer {
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
